@@ -1,0 +1,294 @@
+state_name,district_name,market_name,commodity_name,variety,min_price,max_price,modal_price,date
+Uttar Pradesh,Badaun,Wazirganj,Tomato,Deshi,2800,2850,2825,08/09/2025
+Uttar Pradesh,Balrampur,Tulsipur,Tomato,Hybrid,3010,3080,3050,08/09/2025
+Uttar Pradesh,Bijnor,Chaandpur,Tomato,Hybrid,1400,1600,1500,08/09/2025
+Uttar Pradesh,Bulandshahar,Anoop Shahar,Tomato,Deshi,1600,3000,2800,08/09/2025
+Uttar Pradesh,Bulandshahar,Siyana,Tomato,Local,2800,3000,2900,08/09/2025
+Uttar Pradesh,Etawah,Bharthna,Tomato,Hybrid,2120,2320,2220,08/09/2025
+Uttar Pradesh,Farukhabad,Farukhabad,Tomato,Hybrid,2750,2900,2850,08/09/2025
+Uttar Pradesh,Firozabad,Firozabad,Tomato,Hybrid,2400,2650,2525,08/09/2025
+Gujarat,Gir Somnath,Talalagir,Green Chilli,Other,3000,5000,4000,08/09/2025
+Gujarat,Surendranagar,Vadhvan,Green Chilli,Green Chilly,1500,2000,1750,08/09/2025
+Uttar Pradesh,Hardoi,Madhoganj,Tomato,Hybrid,2800,2850,2820,08/09/2025
+Uttar Pradesh,Jalaun (Orai),Orai,Tomato,Hybrid,2400,2950,2650,08/09/2025
+Uttar Pradesh,Kasganj,Kasganj,Tomato,Hybrid,2550,2660,2600,08/09/2025
+Uttar Pradesh,Kushinagar,Tamkuhi road,Tomato,Tomato,1525,1560,1540,08/09/2025
+Uttar Pradesh,Lakhimpur,Golagokarnath,Tomato,Hybrid,2900,3000,2980,08/09/2025
+Uttar Pradesh,Lakhimpur,Golagokarnath,Tomato,Hybrid,2750,2850,2800,08/09/2025
+Haryana,Mahendragarh-Narnaul,Narnaul,Green Chilli,Green Chilly,2500,4000,3000,08/09/2025
+Haryana,Panchkula,Raipur Rai,Green Chilli,Other,2800,3000,2800,08/09/2025
+Himachal Pradesh,Kangra,Dharamshala,Green Chilli,Other,5000,5500,5250,08/09/2025
+Uttar Pradesh,Lakhimpur,Lakhimpur,Tomato,Deshi,2960,3100,3000,08/09/2025
+Uttar Pradesh,Maharajganj,Nautnava,Tomato,Hybrid,2000,2200,2100,08/09/2025
+Uttar Pradesh,Mirzapur,Mirzapur,Tomato,Hybrid,2675,2800,2750,08/09/2025
+Uttar Pradesh,Prayagraj,Jasra,Tomato,Hybrid,2900,3090,3030,08/09/2025
+Telangana,Mahbubnagar,Kalwakurthy,Tomato,Local,1000,1600,1300,08/09/2025
+Telangana,Ranga Reddy,Chevella,Tomato,Deshi,2000,2000,2000,08/09/2025
+Telangana,Ranga Reddy,Kukatpally(Rythu Bazar),Tomato,Deshi,2300,2300,2300,08/09/2025
+Odisha,Sundergarh,Sargipali,Tomato,Other,4500,5000,4800,08/09/2025
+Punjab,Ferozpur,Firozepur City,Tomato,Other,4000,4500,4250,08/09/2025
+Punjab,Gurdaspur,Dinanagar,Tomato,Tomato,3500,4000,3600,08/09/2025
+Punjab,Hoshiarpur,Garh Shankar,Tomato,Deshi,2500,3000,2800,08/09/2025
+Punjab,Hoshiarpur,GarhShankar (Kotfatuhi),Tomato,Other,2500,3200,3000,08/09/2025
+Punjab,Hoshiarpur,Mukerian(Talwara),Tomato,Tomato,4000,6000,5000,08/09/2025
+Punjab,Mohali,Lalru,Tomato,Other,2500,3100,2900,08/09/2025
+Punjab,Patiala,Samana,Tomato,Hybrid,3500,5000,4000,08/09/2025
+Punjab,Sangrur,Ahmedgarh,Tomato,Other,6000,6500,6000,08/09/2025
+Rajasthan,Bharatpur,Bayana,Tomato,Other,2500,2500,2500,08/09/2025
+Rajasthan,Jodhpur,Jodhpur(F&V)(Paota),Tomato,Other,2000,3500,3000,08/09/2025
+Uttar Pradesh,Agra,Achnera,Tomato,Deshi,2450,2550,2500,08/09/2025
+Uttar Pradesh,Agra,Agra,Tomato,Hybrid,2200,2700,2500,08/09/2025
+Uttar Pradesh,Aligarh,Khair,Tomato,Hybrid,3500,4000,3800,08/09/2025
+Uttar Pradesh,Amroha,Hasanpur,Tomato,Deshi,1810,2000,1850,08/09/2025
+Uttar Pradesh,Auraiya,Dibiapur,Tomato,Hybrid,1800,2000,1900,08/09/2025
+Uttar Pradesh,Azamgarh,Azamgarh,Tomato,Hybrid,2875,3025,2950,08/09/2025
+Uttar Pradesh,Badaun,Wazirganj,Tomato,Deshi,2950,3000,2975,08/09/2025
+Haryana,Kurukshetra,Thanesar,Green Chilli,Green Chilly,2000,4000,3000,08/09/2025
+Maharashtra,Satara,Patan,Green Chilli,Other,2000,3000,2500,08/09/2025
+Maharashtra,Satara,Vai,Green Chilli,Other,4000,5000,4500,08/09/2025
+Nagaland,Longleng,Longleng,Green Chilli,Other,9400,9700,9500,08/09/2025
+NCT of Delhi,Delhi,Azadpur,Green Chilli,Green Chilly,1500,4500,2650,08/09/2025
+Odisha,Dhenkanal,Kamakhyanagar,Green Chilli,Green Chilly,8000,8500,8000,08/09/2025
+Kerala,Kottayam,Thalayolaparambu,Green Chilli,Green Chilly,6900,7300,7000,08/09/2025
+West Bengal,Darjeeling,Karsiyang(Matigara),Tomato,Other,4300,4500,4400,08/09/2025
+Kerala,Palakad,Koduvayoor,Green Chilli,Other,7000,7500,7300,08/09/2025
+Kerala,Thirssur,Chelakkara,Green Chilli,Other,6000,6500,6200,08/09/2025
+Kerala,Thiruvananthapuram,Neyyatinkara,Green Chilli,Green Chilly,7300,8000,7700,08/09/2025
+Madhya Pradesh,Hoshangabad,Hoshangabad(F&V),Green Chilli,Green Chilly,2090,3710,2830,08/09/2025
+West Bengal,Hooghly,Pandua,Tomato,Hybrid,3000,3300,3200,08/09/2025
+West Bengal,Medinipur(E),Egra/contai,Tomato,Tomato,4000,4200,4100,08/09/2025
+West Bengal,North 24 Parganas,Habra,Tomato,Other,2600,2800,2700,08/09/2025
+Madhya Pradesh,Rajgarh,Sarangpur(F&V),Green Chilli,Green Chilly,1000,4100,2800,08/09/2025
+Maharashtra,Nagpur,Nagpur,Green Chilli,Other,2000,2500,2350,08/09/2025
+Himachal Pradesh,Kullu,Bhuntar,Green Chilli,Other,4000,5000,4500,08/09/2025
+Himachal Pradesh,Kullu,Kullu,Green Chilli,Other,5000,7000,6000,08/09/2025
+Himachal Pradesh,Mandi,Dhanotu (Mandi),Green Chilli,Other,3500,6000,4500,08/09/2025
+Himachal Pradesh,Mandi,Mandi(Mandi),Green Chilli,Other,4000,8000,7000,08/09/2025
+Kerala,Alappuzha,Chengannur,Green Chilli,Green Chilly,4800,5300,5000,08/09/2025
+Kerala,Alappuzha,THAMARAKKULAM VFPCK,Green Chilli,Green Chilly,120,160,140,08/09/2025
+Uttar Pradesh,Raebarelli,Lalganj,Tomato,Hybrid,3000,3200,3100,08/09/2025
+Uttar Pradesh,Saharanpur,Saharanpur,Tomato,Hybrid,2500,3100,2800,08/09/2025
+Uttar Pradesh,Shamli,Thanabhavan,Tomato,Hybrid,3000,3200,3100,08/09/2025
+Uttar Pradesh,Shravasti,Payagpur,Tomato,Deshi,2800,3000,2900,08/09/2025
+West Bengal,Howrah,Ramkrishanpur(Howrah),Tomato,Other,4000,4800,4500,08/09/2025
+Maharashtra,Nagpur,Parshiwani,Green Chilli,Other,2500,3000,2800,08/09/2025
+Haryana,Kaithal,Kaithal,Potato,(Red Nanital),1000,2400,1700,08/09/2025
+Kerala,Alappuzha,Kayamkulam,Onion,Big,2100,2300,2200,08/09/2025
+Kerala,Ernakulam,Perumbavoor,Onion,Onion,2800,3800,3200,08/09/2025
+Kerala,Kannur,Kannur,Onion,Other,2300,2500,2400,08/09/2025
+Haryana,Panchkula,"New Grain Market , Panchkula",Potato,Other,1800,2500,2000,08/09/2025
+Haryana,Panipat,Panipat,Potato,Other,500,1500,1000,08/09/2025
+Haryana,Rohtak,Rohtak,Potato,Other,600,1000,800,08/09/2025
+Haryana,Rohtak,Sampla,Potato,Other,1400,1400,1400,08/09/2025
+Haryana,Sirsa,Ellanabad,Potato,Potato,500,1000,700,08/09/2025
+Haryana,Sonipat,Sonepat(Kharkhoda),Potato,Other,1000,1500,1200,08/09/2025
+Haryana,Yamuna Nagar,Sadhaura,Potato,Other,700,1000,800,08/09/2025
+Himachal Pradesh,Bilaspur,Bilaspur,Potato,Local,1000,3300,2300,08/09/2025
+Himachal Pradesh,Hamirpur,Hamirpur,Potato,Desi,1200,1600,1400,08/09/2025
+Himachal Pradesh,Hamirpur,Hamirpur,Potato,Other,2400,2800,2600,08/09/2025
+Himachal Pradesh,Kangra,Kangra(Baijnath),Potato,Potato,1600,2700,2000,08/09/2025
+Himachal Pradesh,Kangra,Kangra(Nagrota Bagwan),Potato,Other,1100,2200,1400,08/09/2025
+Himachal Pradesh,Mandi,Mandi(Mandi),Potato,Potato,1000,2400,1500,08/09/2025
+Kerala,Kottayam,Pampady,Onion,Big,3500,4500,4000,08/09/2025
+Kerala,Kozhikode(Calicut),Perambra,Onion,Other,2100,2300,2300,08/09/2025
+Kerala,Kozhikode(Calicut),Quilandy,Onion,Other,2400,2500,2500,08/09/2025
+Kerala,Malappuram,Kottakkal,Onion,Other,2100,2300,2200,08/09/2025
+Kerala,Malappuram,Manjeri,Onion,Other,2300,2400,2350,08/09/2025
+Kerala,Malappuram,Parappanangadi,Onion,Other,1950,2050,2050,08/09/2025
+Kerala,Palakad,Koduvayoor,Onion,Big,2000,2400,2200,08/09/2025
+Kerala,Palakad,vadakarapathy,Onion,Small,1800,2000,1900,08/09/2025
+Madhya Pradesh,Dhar,Manawar(F&V),Onion,Onion,1329,1529,1429,08/09/2025
+Madhya Pradesh,Dhar,Rajgarh,Onion,Onion,600,600,600,08/09/2025
+Madhya Pradesh,Harda,Harda(F&V),Onion,Other,1000,1200,1100,08/09/2025
+Madhya Pradesh,Hoshangabad,Hoshangabad(F&V),Onion,Onion,1330,1900,1450,08/09/2025
+Madhya Pradesh,Hoshangabad,Pipariya(F&V),Onion,Onion,950,2000,1500,08/09/2025
+Andhra Pradesh,East Godavari,Ravulapelem,Banana,Bhushavali(Pacha),2200,2700,2500,08/09/2025
+Andhra Pradesh,East Godavari,Ravulapelem,Banana,Chakkarakeli(White),2100,2900,2600,08/09/2025
+Andhra Pradesh,East Godavari,Ravulapelem,Banana,Karpura,1600,2600,2200,08/09/2025
+Haryana,Hissar,Barwala(Hisar),Banana,Other,3800,4000,3900,08/09/2025
+Madhya Pradesh,Sagar,Khurai(F&V),Onion,1st Sort,700,1100,900,08/09/2025
+Himachal Pradesh,Solan,Solan,Potato,Other,1200,2800,2800,08/09/2025
+Jammu and Kashmir,Jammu,Narwal Jammu (F&V),Potato,Potato,1300,1500,1400,08/09/2025
+Kerala,Ernakulam,North Paravur,Potato,(Red Nanital),4000,5000,4500,08/09/2025
+Kerala,Ernakulam,Perumbavoor,Potato,Potato,3700,4700,4000,08/09/2025
+Kerala,Kannur,Thalasserry,Potato,Other,2200,2500,2300,08/09/2025
+Himachal Pradesh,Kullu,Bhuntar,Banana,Other,3400,3600,3500,08/09/2025
+Himachal Pradesh,Kullu,Kullu,Banana,Other,3000,3300,3200,08/09/2025
+Maharashtra,Ahmednagar,Karjat,Onion,Local,200,1400,800,08/09/2025
+Maharashtra,Akola,Akola,Onion,Other,600,1600,1200,08/09/2025
+Maharashtra,Chattrapati Sambhajinagar,Chattrapati Sambhajinagar,Onion,Other,300,1200,750,08/09/2025
+Maharashtra,Nashik,Chandvad,Onion,Other,400,1641,1230,08/09/2025
+Himachal Pradesh,Sirmore,Paonta Sahib,Banana,Other,4000,5000,4500,08/09/2025
+Himachal Pradesh,Una,Una,Banana,Medium,2400,2800,2600,08/09/2025
+Jammu and Kashmir,Jammu,Batote,Banana,Other,4600,4800,4700,08/09/2025
+Karnataka,Bangalore,"Binny Mill (F&V), Bangalore",Banana,Nendra Bale,1000,2600,1800,08/09/2025
+Kerala,Alappuzha,THAMARAKKULAM VFPCK,Banana,Nendra Bale,45,75,50,08/09/2025
+Kerala,Ernakulam,Amalapuram  VFPCK,Banana,Poovan,5200,5400,5300,08/09/2025
+Maharashtra,Nashik,Pimpalgaon Baswant(Saykheda),Onion,Other,700,1300,1130,08/09/2025
+Kerala,Kollam,Kottarakkara,Potato,Other,3800,4000,4000,08/09/2025
+Maharashtra,Sholapur,Solapur,Onion,Red,100,2300,1100,08/09/2025
+Kerala,Kozhikode(Calicut),Kallachi,Potato,Other,2600,3000,2800,08/09/2025
+Kerala,Malappuram,Kottakkal,Potato,Other,2300,2500,2400,08/09/2025
+Kerala,Thirssur,Chavakkad,Potato,Other,3600,4400,4400,08/09/2025
+Kerala,Ernakulam,Mookkannur  VFPCK,Banana,Robusta,1600,1800,1800,08/09/2025
+Kerala,Ernakulam,Perumbavoor,Banana,Palayamthodan,2500,3500,3000,08/09/2025
+Odisha,Bargarh,Attabira,Onion,Other,1900,2000,1900,08/09/2025
+Odisha,Bargarh,Bargarh(Barapalli),Onion,Other,1600,1800,1700,08/09/2025
+Odisha,Keonjhar,Keonjhar,Onion,Other,2800,3000,3000,08/09/2025
+Odisha,Rayagada,Rayagada,Onion,Other,2100,2200,2200,08/09/2025
+Odisha,Sonepur,Birmaharajpur,Onion,Onion,2400,2500,2500,08/09/2025
+Madhya Pradesh,Harda,Harda(F&V),Potato,Desi,1500,1600,1550,08/09/2025
+Madhya Pradesh,Hoshangabad,Pipariya(F&V),Potato,Potato,900,1800,1400,08/09/2025
+Madhya Pradesh,Sagar,Khurai(F&V),Potato,Potato,1000,1200,1100,08/09/2025
+Gujarat,Gandhinagar,Mansa,Bajra(Pearl Millet/Cumbu),Deshi,2010,2595,2525,08/09/2025
+Gujarat,Jamnagar,Jamnagar,Bajra(Pearl Millet/Cumbu),Other,1725,2575,2400,08/09/2025
+Punjab,Bhatinda,Maur,Onion,Other,1800,2000,1900,08/09/2025
+Punjab,Hoshiarpur,Mukerian,Onion,Onion,1800,2000,1900,08/09/2025
+Punjab,Nawanshahr,Nawan Shahar(Subzi Mandi),Onion,Other,1800,2000,1900,08/09/2025
+Punjab,Patiala,Ghanaur,Onion,Other,1400,1600,1500,08/09/2025
+Odisha,Rayagada,Rayagada,Potato,Other,1700,1800,1800,08/09/2025
+Punjab,Ropar (Rupnagar),Ropar,Onion,Nasik,1600,1900,1700,08/09/2025
+Gujarat,Amreli,Rajula,Cotton,Local,5155,7875,6515,08/09/2025
+Gujarat,Amreli,Savarkundla,Cotton,Narma BT Cotton,7250,8000,7750,08/09/2025
+Gujarat,Jamnagar,Jam Jodhpur,Cotton,Bunny,6005,7505,7255,08/09/2025
+Gujarat,Rajkot,Rajkot,Cotton,Narma BT Cotton,6450,7755,7550,08/09/2025
+Gujarat,Surat,Nizar,Cotton,Other,6975,7125,7045,08/09/2025
+Haryana,Fatehabad,Bhuna,Cotton,American,5701,6900,6395,08/09/2025
+Haryana,Sirsa,Dabwali,Cotton,Other,6700,7140,6900,08/09/2025
+Haryana,Sirsa,Ellanabad,Cotton,American,6550,6711,6550,08/09/2025
+Telangana,Karimnagar,Jammikunta,Cotton,Cotton (Unginned),7450,7450,7450,08/09/2025
+Maharashtra,Dhule,Dondaicha(Sindhkheda),Bajra(Pearl Millet/Cumbu),Other,2300,2650,2650,08/09/2025
+Maharashtra,Jalgaon,Chopada,Bajra(Pearl Millet/Cumbu),Other,2782,2782,2782,08/09/2025
+Maharashtra,Jalgaon,Chopada,Bajra(Pearl Millet/Cumbu),Other,2551,2673,2551,08/09/2025
+Maharashtra,Nashik,Kalvan,Bajra(Pearl Millet/Cumbu),Other,2811,2811,2811,08/09/2025
+Maharashtra,Sangli,Sangli,Bajra(Pearl Millet/Cumbu),Other,2775,3100,2938,08/09/2025
+Rajasthan,Dausa,Dausa,Bajra(Pearl Millet/Cumbu),Other,2280,2300,2290,08/09/2025
+Kerala,Kasargod,Pullur Periya  VFPCK,Banana,Nendra Bale,4800,4800,4800,08/09/2025
+Kerala,Kollam,Anchal,Banana,Poovan,7500,7700,7600,08/09/2025
+Kerala,Kollam,Anchal,Banana,Robusta,4500,4700,4600,08/09/2025
+Punjab,Jalandhar,Bilga,Potato,Other,1800,2000,1900,08/09/2025
+Punjab,Ludhiana,Ludhiana,Potato,Other,300,900,600,08/09/2025
+Rajasthan,Hanumangarh,Goluwala,Onion,1st Sort,1500,1800,1800,08/09/2025
+Rajasthan,Sirohi,Abu Road,Onion,Other,1975,2025,2000,08/09/2025
+Punjab,Nawanshahr,Nawan Shahar(Subzi Mandi),Potato,Potato,800,1000,900,08/09/2025
+Punjab,Ropar (Rupnagar),Chamkaur Sahib,Potato,Other,900,1000,950,08/09/2025
+Rajasthan,Karauli,Hindoun,Bajra(Pearl Millet/Cumbu),Other,2226,2299,2263,08/09/2025
+Rajasthan,Ajmer,Ajmer(F&V),Potato,Other,800,1800,1500,08/09/2025
+Uttar Pradesh,Etah,Aliganj,Bajra(Pearl Millet/Cumbu),Deshi,2100,2105,2102,08/09/2025
+Kerala,Kollam,Sasthamkotta,Banana,Poovan,4500,5000,4800,08/09/2025
+Kerala,Kollam,Sasthamkotta,Banana,Red Banana,5000,5500,5200,08/09/2025
+Kerala,Kollam,THALAVOOR VFPCK,Banana,Palayamthodan,3000,3000,3000,08/09/2025
+Kerala,Kollam,Valakom  VFPCK,Banana,Red Banana,5500,6500,6000,08/09/2025
+Maharashtra,Amarawati,Amarawati,Bajra(Pearl Millet/Cumbu),Other,2100,2300,2200,08/09/2025
+Maharashtra,Buldhana,Deoulgaon Raja,Bajra(Pearl Millet/Cumbu),Other,2200,2400,2400,08/09/2025
+Maharashtra,Chattrapati Sambhajinagar,Gangapur,Bajra(Pearl Millet/Cumbu),Other,2066,2676,2400,08/09/2025
+Maharashtra,Dhule,Dhule,Bajra(Pearl Millet/Cumbu),Other,2300,2641,2500,08/09/2025
+Odisha,Dhenkanal,Hindol,Potato,Potato,1700,2000,1800,08/09/2025
+Punjab,Sangrur,Dhuri,Onion,Onion,1500,1800,1600,08/09/2025
+Rajasthan, Jhunjhunu,Nawalgarh,Onion,1st Sort,1000,1200,1100,08/09/2025
+Rajasthan,Nagaur,Degana,Bajra(Pearl Millet/Cumbu),Other,2300,2350,2325,08/09/2025
+Rajasthan,Tonk,Dooni,Bajra(Pearl Millet/Cumbu),Bold,2100,2100,2100,08/09/2025
+Uttar Pradesh,Aligarh,Khair,Bajra(Pearl Millet/Cumbu),Hybrid,1650,1960,1850,08/09/2025
+Uttar Pradesh,Kanpur,Choubepur,Bajra(Pearl Millet/Cumbu),Hybrid,2200,2320,2270,08/09/2025
+Kerala,Kollam,Chengamanad  VFPCK,Banana,Palayamthodan,3000,3000,3000,08/09/2025
+Kerala,Kollam,Kadakkal  VFPCK,Banana,Poovan,3200,4200,3500,08/09/2025
+Rajasthan,Jaisalmer,Jaisalmer,Potato,Potato,1300,1500,1400,08/09/2025
+Kerala,Kollam,PLAPPALLY VFPCK,Banana,Banana - Ripe,7500,7500,7500,08/09/2025
+Kerala,Kollam,Punalur VFPCK,Banana,Palayamthodan,2400,2800,2600,08/09/2025
+Kerala,Kollam,Punalur VFPCK,Banana,Red Banana,5500,6500,6000,08/09/2025
+Kerala,Kollam,PUTHUR VFPCK,Banana,Nendra Bale,6500,7500,7000,08/09/2025
+Kerala,Kollam,THALAVOOR VFPCK,Banana,Banana - Ripe,7000,7000,7000,08/09/2025
+Gujarat,Porbandar,Porbandar,Onion,Other,1000,1500,1250,08/09/2025
+Haryana,Ambala,Naraingarh,Onion,Onion,1200,1600,1400,08/09/2025
+Haryana,Bhiwani,Bhiwani,Onion,Other,1410,2210,1720,08/09/2025
+Haryana,Gurgaon,Farukh Nagar,Onion,Other,1800,2300,1800,08/09/2025
+Karnataka,Chikmagalur,Chikkamagalore,Onion,Other,1871,2071,1971,08/09/2025
+Andhra Pradesh,Kurnool,Kurnool,Onion,Local,201,1200,634,08/09/2025
+Bihar,Sheohar,Sheohar,Onion,Medium,2200,2500,2400,08/09/2025
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Onion,Onion,1500,2000,1750,08/09/2025
+Haryana,Kurukshetra,Thanesar,Banana,Other,3000,5000,4000,08/09/2025
+Haryana,Mahendragarh-Narnaul,Mohindergarh,Banana,Banana - Ripe,2000,2000,2000,08/09/2025
+Haryana,Sonipat,Sonepat,Banana,Other,3200,3600,3200,08/09/2025
+Himachal Pradesh,Hamirpur,Hamirpur,Banana,Other,3800,4500,4200,08/09/2025
+Himachal Pradesh,Kangra,Kangra(Jaisinghpur),Banana,Banana - Ripe,4500,5200,4900,08/09/2025
+Maharashtra,Pune,Pune(Manjri),Potato,Other,1500,2500,2000,08/09/2025
+Maharashtra,Sangli,"Sangli(Phale, Bhajipura Market)",Potato,Local,1000,1800,1400,08/09/2025
+Punjab,Gurdaspur,Dinanagar,Onion,Other,1900,2100,2000,08/09/2025
+Nagaland,Kohima,Kohima,Potato,Potato,4000,4200,4100,08/09/2025
+Punjab,Ludhiana,Ludhiana,Onion,Other,500,1400,1000,08/09/2025
+Odisha,Balasore,Jaleswar,Potato,Other,1200,1500,1400,08/09/2025
+Gujarat,Patan,Siddhpur,Bajra(Pearl Millet/Cumbu),Deshi,2095,2825,2460,08/09/2025
+Gujarat,Sabarkantha,Modasa,Bajra(Pearl Millet/Cumbu),Hybrid,2400,2500,2500,08/09/2025
+Kerala,Alappuzha,Chengannur,Onion,Small,4900,5200,5000,08/09/2025
+Haryana,Kaithal,Pundri,Potato,Other,1000,1100,1050,08/09/2025
+Kerala,Ernakulam,Thrippunithura,Onion,Big,2200,2800,2200,08/09/2025
+Kerala,Kasargod,Kanjangadu,Potato,Potato,2800,3400,3000,08/09/2025
+Gujarat,Bharuch,Jambusar(Kaavi),Jowar(Sorghum),Other,3000,3600,3300,08/09/2025
+Gujarat,Bhavnagar,Taleja,Jowar(Sorghum),Local,2605,2895,2750,08/09/2025
+Gujarat,Jamnagar,Dhrol,Jowar(Sorghum),Other,3200,3775,3490,08/09/2025
+Gujarat,Surat,Vyra,Jowar(Sorghum),Other,1750,2250,2000,08/09/2025
+Madhya Pradesh,Indore,Indore,Jowar(Sorghum),Jowar (Yellow),3485,3485,3485,08/09/2025
+Maharashtra,Ahmednagar,Shevgaon(Bodhegaon),Jowar(Sorghum),Other,2000,2000,2000,08/09/2025
+Maharashtra,Beed,Beed,Jowar(Sorghum),Other,1900,3300,2394,08/09/2025
+Maharashtra,Dhule,Dhule,Jowar(Sorghum),Jowar ( White),1580,2270,2171,08/09/2025
+Maharashtra,Jalgaon,Chalisgaon,Jowar(Sorghum),Jowar ( White),2000,2301,2266,08/09/2025
+Maharashtra,Jalgaon,Pachora,Jowar(Sorghum),Jowar ( White),1900,2300,2100,08/09/2025
+Maharashtra,Sholapur,Solapur,Jowar(Sorghum),Other,2030,2855,2700,08/09/2025
+West Bengal,Hooghly,Champadanga,Jute,Other,7800,8000,7800,08/09/2025
+West Bengal,Medinipur(W),Ghatal,Jute,TD-5,7400,7600,7500,08/09/2025
+West Bengal,Nadia,Nadia,Jute,TD-5,7800,8000,7900,08/09/2025
+West Bengal,Purba Bardhaman,Kalna,Jute,TD-5,7800,8000,7900,08/09/2025
+Uttar Pradesh,Auraiya,Achalda,Onion,Red,1400,1540,1460,08/09/2025
+Kerala,Thirssur,Varandarappilly  VFPCK,Banana,Nendra Bale,3800,4400,4200,08/09/2025
+Kerala,Thiruvananthapuram,Parassala,Banana,Palayamthodan,2800,3000,2800,08/09/2025
+Uttar Pradesh,Auraiya,Auraiya,Onion,Red,1370,1550,1460,08/09/2025
+Uttar Pradesh,Badaun,Wazirganj,Onion,Red,1360,1420,1400,08/09/2025
+Uttar Pradesh,Badaun,Wazirganj,Onion,Red,1250,1300,1275,08/09/2025
+Uttar Pradesh,Banda,Banda,Onion,Red,1350,1500,1425,08/09/2025
+Uttar Pradesh,Bareilly,Anwala,Onion,Red,1200,1500,1400,08/09/2025
+Uttar Pradesh,Gorakhpur,Gorakhpur,Potato,Red,1075,1175,1125,08/09/2025
+Uttar Pradesh,Hardoi,Madhoganj,Potato,Badshah,1050,1150,1105,08/09/2025
+Uttar Pradesh,Hardoi,Sandila,Potato,Badshah,1050,1150,1100,08/09/2025
+Uttar Pradesh,Bulandshahar,Gulavati,Onion,Red,1500,1700,1600,08/09/2025
+Uttar Pradesh,Etah,Awagarh,Onion,Red,1200,1400,1250,08/09/2025
+Uttar Pradesh,Fatehpur,Fatehpur,Onion,Red,1300,1460,1380,08/09/2025
+Maharashtra,Pune,Pune(Moshi),Banana,Other,2000,8000,5000,08/09/2025
+Nagaland,Longleng,Longleng,Banana,Other,4200,4500,4300,08/09/2025
+Uttar Pradesh,Gonda,Gonda,Onion,Red,1350,1500,1400,08/09/2025
+Uttar Pradesh,Hardoi,Sandila,Onion,Red,1400,1480,1440,08/09/2025
+Uttar Pradesh,Jaunpur,Mugrabaadshahpur,Potato,Badshah,975,1175,1075,08/09/2025
+Uttar Pradesh,Kannuj,Chhibramau,Potato,Local,800,925,860,08/09/2025
+Uttar Pradesh,Kannuj,Kannauj,Potato,Local,800,900,850,08/09/2025
+Uttar Pradesh,Kanpur,Kanpur(Grain),Potato,Desi,840,1040,940,08/09/2025
+Uttar Pradesh,Kanpur Dehat,Jhijhank,Potato,Other,600,700,650,08/09/2025
+Uttar Pradesh,Lakhimpur,Lakhimpur,Potato,Local,1000,1120,1080,08/09/2025
+Uttar Pradesh,Maharajganj,Anandnagar,Potato,Red,1400,1800,1600,08/09/2025
+Uttar Pradesh,Maharajganj,Gadaura,Potato,Red,1150,1300,1250,08/09/2025
+Uttar Pradesh,Maharajganj,Partaval,Potato,Desi,1035,1190,1110,08/09/2025
+Uttar Pradesh,Mainpuri,Bewar,Potato,Local,720,820,770,08/09/2025
+Uttar Pradesh,Mathura,Kosikalan,Potato,Desi,980,1040,1020,08/09/2025
+Uttar Pradesh,Khiri (Lakhimpur),Maigalganj,Onion,Red,2600,2650,2625,08/09/2025
+Uttar Pradesh,Prayagraj,Jasra,Potato,Desi,865,1040,970,08/09/2025
+Uttar Pradesh,Lucknow,Lucknow,Onion,Red,1440,1540,1490,08/09/2025
+Uttar Pradesh,Maharajganj,Nautnava,Onion,Red,1300,1600,1460,08/09/2025
+Punjab,Hoshiarpur,Garh Shankar,Banana,Medium,2500,3000,2800,08/09/2025
+Punjab,Hoshiarpur,GarhShankar (Kotfatuhi),Banana,Other,2500,3500,3000,08/09/2025
+Punjab,Hoshiarpur,Mukerian,Banana,Banana - Ripe,2500,3500,3000,08/09/2025
+Punjab,Ludhiana,Khanna,Banana,Other,1600,1600,1600,08/09/2025
+Punjab,Moga,Baghapurana,Banana,Amruthapani,2000,3000,2500,08/09/2025
+Uttar Pradesh,Siddharth Nagar,Sahiyapur,Potato,Desi,900,1050,950,08/09/2025
+Uttar Pradesh,Sitapur,Mehmoodabad,Potato,Desi,1050,1110,1080,08/09/2025
+Kerala,Kottayam,Thalayolaparambu,Banana,Palayamthodan,2800,3100,3000,08/09/2025
+Kerala,Kottayam,VAKATHANAM VFPCK,Banana,Nendra Bale,5800,6000,6000,08/09/2025
+Kerala,Kozhikode(Calicut),KODIYATHUR VFPCK,Banana,Nendra Bale,4500,4500,4500,08/09/2025
+Kerala,Malappuram,ANGADIPPURAM VFPCK,Banana,Nendra Bale,4000,4200,4100,08/09/2025
+Kerala,Malappuram,MANKADA VFPCK,Banana,Pachha Bale,1200,1500,1400,08/09/2025
+Telangana,Hyderabad,Gudimalkapur,Potato,(Red Nanital),1200,1800,1500,08/09/2025
+Tripura,Dhalai,Gandacharra,Potato,Local,2300,2500,2400,08/09/2025
+Tripura,Khowai,Teliamura,Potato,Jalander,1700,1850,1800,08/09/2025
+Tripura,North Tripura,Dasda,Potato,Local,1700,1900,1800,08/09/2025
+Tripura,North Tripura,Kanchanpur,Potato,Potato,1800,2000,1900,08/09/2025
+Tripura,North Tripura,Panisagar,Potato,Jalander,1500,1520,1510,08/09/2025
+Uttar Pradesh,Aligarh,Charra,Potato,Desi,1000,1100,1050,08/09/2025
+Kerala,Pathanamthitta,NEDUMBRAM VFPCK,Banana,Nendra Bale,5000,8600,6800,08/09/2025
+Kerala,Pathanamthitta,Pramadom VFPCK,Banana,Poovan,2000,6200,5200,08/09/2025

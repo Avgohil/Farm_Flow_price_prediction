@@ -1,0 +1,171 @@
+2025-09-07 21:29:37,483 INFO: === Pipeline run started ===
+2025-09-07 21:30:04,648 INFO: No new data for retraining. Skipping model update and evaluation.
+2025-09-07 21:30:04,648 INFO: === Pipeline run completed successfully ===
+2025-09-07 21:44:36,008 INFO: === Pipeline run started ===
+2025-09-07 21:45:30,380 INFO: Daily data fetched successfully.
+2025-09-07 21:46:01,919 INFO: No new data for retraining. Skipping model update and evaluation.
+2025-09-07 21:46:01,919 INFO: === Pipeline run completed successfully ===
+2025-09-08 12:42:25,924 INFO: === Pipeline run started ===
+2025-09-08 12:42:34,472 INFO: Daily data fetched successfully.
+2025-09-08 12:43:57,973 INFO: No new data for retraining. Skipping model update and evaluation.
+2025-09-08 12:43:57,985 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:07:33,174 INFO: === Pipeline run started ===
+2025-09-08 13:07:41,987 INFO: Daily data fetched successfully.
+2025-09-08 13:07:54,792 ERROR: Pipeline failed: No columns to parse from file
+2025-09-08 13:18:54,245 INFO: === Pipeline run started ===
+2025-09-08 13:19:04,902 INFO: Daily data fetched successfully.
+2025-09-08 13:19:14,566 ERROR: Pipeline failed: 'commodity_name'
+2025-09-08 13:19:23,888 INFO: === Pipeline run started ===
+2025-09-08 13:19:31,198 INFO: Daily data fetched successfully.
+2025-09-08 13:19:43,027 ERROR: Pipeline failed: 'commodity_name'
+2025-09-08 13:21:55,884 INFO: === Pipeline run started ===
+2025-09-08 13:22:02,959 INFO: Daily data fetched successfully.
+2025-09-08 13:23:01,643 ERROR: Pipeline failed: [Errno 2] No such file or directory: 'model_deployment_artifacts\\commodity_encoder(1).pkl'
+2025-09-08 13:24:06,172 INFO: === Pipeline run started ===
+2025-09-08 13:24:26,975 INFO: Daily data fetched successfully.
+2025-09-08 13:25:39,206 INFO: No new data for retraining. Skipping model update and evaluation.
+2025-09-08 13:25:39,215 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:33:07,411 INFO: === Pipeline run started ===
+2025-09-08 13:33:16,089 INFO: Daily data fetched successfully.
+2025-09-08 13:34:18,382 ERROR: Evaluation failed: [Errno 2] No such file or directory: 'model_deployment_artifacts\\commodity_encoder(1).pkl'
+2025-09-08 13:34:18,392 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:35:56,501 INFO: === Pipeline run started ===
+2025-09-08 13:36:02,429 INFO: Daily data fetched successfully.
+2025-09-08 13:36:50,062 INFO: No new data for retraining. Skipping model update and evaluation.
+2025-09-08 13:36:50,120 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:39:41,653 INFO: === Pipeline run started ===
+2025-09-08 13:39:47,418 INFO: Daily data fetched successfully.
+2025-09-08 13:40:36,291 INFO: No new data for retraining. Skipping model update.
+2025-09-08 13:41:28,805 INFO: === Pipeline run started ===
+2025-09-08 13:41:35,892 INFO: Daily data fetched successfully.
+2025-09-08 13:42:08,006 ERROR: Evaluation failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- commodity_encoded
+- day
+- market_encoded
+- modal_price_lag_1
+- modal_price_rolling_7
+- ...
+Feature names seen at fit time, yet now missing:
+- commodity_name
+- date
+- district_name
+- market_name
+- state_name
+- ...
+
+2025-09-08 13:42:09,714 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:42:21,750 INFO: No new data for retraining. Skipping model update.
+2025-09-08 13:43:35,369 ERROR: Evaluation failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- commodity_encoded
+- day
+- market_encoded
+- modal_price_lag_1
+- modal_price_rolling_7
+- ...
+Feature names seen at fit time, yet now missing:
+- commodity_name
+- date
+- district_name
+- market_name
+- state_name
+- ...
+
+2025-09-08 13:43:38,983 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:47:52,947 INFO: === Pipeline run started ===
+2025-09-08 13:47:59,136 INFO: Daily data fetched successfully.
+2025-09-08 13:48:30,038 INFO: No new data for retraining. Skipping model update.
+2025-09-08 13:49:10,085 ERROR: Evaluation failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- commodity_encoded
+- day
+- market_encoded
+- modal_price_lag_1
+- modal_price_rolling_7
+- ...
+Feature names seen at fit time, yet now missing:
+- commodity_name
+- date
+- district_name
+- market_name
+- state_name
+- ...
+
+2025-09-08 13:49:10,749 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:54:44,557 INFO: === Pipeline run started ===
+2025-09-08 13:54:51,070 INFO: Daily data fetched successfully.
+2025-09-08 13:55:32,810 INFO: No new data for retraining. Skipping model update.
+2025-09-08 13:56:28,354 ERROR: Evaluation failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- commodity_encoded
+- day
+- market_encoded
+- modal_price_lag_1
+- modal_price_rolling_7
+- ...
+Feature names seen at fit time, yet now missing:
+- commodity_name
+- date
+- district_name
+- market_name
+- state_name
+- ...
+
+2025-09-08 13:56:29,433 INFO: === Pipeline run completed successfully ===
+2025-09-08 13:58:20,911 INFO: === Pipeline run started ===
+2025-09-08 13:58:25,471 INFO: Daily data fetched successfully.
+2025-09-08 13:58:53,921 INFO: No new data for retraining. Skipping model update.
+2025-09-08 13:59:41,749 ERROR: Evaluation failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- commodity_encoded
+- day
+- market_encoded
+- modal_price_lag_1
+- modal_price_rolling_7
+- ...
+Feature names seen at fit time, yet now missing:
+- commodity_name
+- date
+- district_name
+- market_name
+- state_name
+- ...
+
+2025-09-08 13:59:42,604 INFO: === Pipeline run completed successfully ===
+2025-09-08 14:00:26,826 INFO: === Pipeline run started ===
+2025-09-08 14:01:06,424 ERROR: Pipeline failed: Input y contains NaN.
+2025-09-08 14:06:19,197 INFO: === Pipeline run started ===
+2025-09-08 14:08:54,310 INFO: Evaluation results: {'modal_price': {'MAE': 2716.9048136364117, 'RMSE': 6469.784961263323}}
+2025-09-08 14:08:54,311 INFO: === Pipeline run completed successfully ===
+2025-09-09 09:57:38,271 INFO: === Pipeline run started ===
+2025-09-09 09:57:49,287 INFO: Daily data fetched successfully.
+2025-09-09 09:58:59,548 INFO: No new data for retraining. Skipping model update.
+2025-09-09 10:02:50,260 INFO: Evaluation results: {'min_price': {'MAE': 2449.040688848258, 'RMSE': 5573.390783551923}, 'max_price': {'MAE': 2844.436718480072, 'RMSE': 7072.062572063257}, 'modal_price': {'MAE': 2716.9048136364117, 'RMSE': 6469.784961263323}}
+2025-09-09 10:02:50,324 INFO: === Pipeline run completed successfully ===
+2025-09-09 10:07:07,470 INFO: === Pipeline run started ===
+2025-09-09 10:07:16,732 INFO: Daily data fetched successfully.
+2025-09-09 10:07:44,143 INFO: No new data for retraining. Skipping model update.
+2025-09-09 10:11:00,608 INFO: Evaluation results: {'min_price': {'MAE': 2449.040688848258, 'RMSE': 5573.390783551923}, 'max_price': {'MAE': 2844.436718480072, 'RMSE': 7072.062572063257}, 'modal_price': {'MAE': 2716.9048136364117, 'RMSE': 6469.784961263323}}
+2025-09-09 10:11:00,624 INFO: === Pipeline run completed successfully ===
+2025-09-09 10:15:15,534 INFO: === Pipeline run started ===
+2025-09-09 10:15:25,949 INFO: Daily data fetched successfully.
+2025-09-09 10:15:58,711 INFO: No new data for retraining. Skipping model update.
+2025-09-09 10:19:03,198 INFO: Evaluation results: {'min_price': {'MAE': 2449.040688848258, 'RMSE': 5573.390783551923}, 'max_price': {'MAE': 2844.436718480072, 'RMSE': 7072.062572063257}, 'modal_price': {'MAE': 2716.9048136364117, 'RMSE': 6469.784961263323}}
+2025-09-09 10:19:03,205 INFO: === Pipeline run completed successfully ===
+2025-09-09 10:20:29,389 INFO: === Pipeline run started ===
+2025-09-09 10:20:30,970 ERROR: combine_filter_daily.py failed: Command '['python', 'combine_filter_daily.py']' returned non-zero exit status 1.
+2025-09-09 10:20:30,971 ERROR: Pipeline failed: Command '['python', 'combine_filter_daily.py']' returned non-zero exit status 1.
+2025-09-09 10:24:00,568 INFO: === Pipeline run started ===
+2025-09-09 10:24:14,967 ERROR: combine_filter_daily.py failed: Command '['python', 'combine_filter_daily.py']' returned non-zero exit status 1.
+2025-09-09 10:24:14,968 ERROR: Pipeline failed: Command '['python', 'combine_filter_daily.py']' returned non-zero exit status 1.
+2025-09-09 10:25:52,879 INFO: === Pipeline run started ===
+2025-09-09 10:26:03,083 INFO: daily_new.csv generated successfully.
+2025-09-09 10:26:09,053 INFO: Daily data fetched successfully.
+2025-09-09 10:30:12,721 INFO: Evaluation results: {'min_price': {'MAE': 2491.9171629668135, 'RMSE': 5677.905214134977}, 'max_price': {'MAE': 2835.931546780432, 'RMSE': 7144.663105589299}, 'modal_price': {'MAE': 2718.960605822648, 'RMSE': 6510.649498433886}}
+2025-09-09 10:30:12,727 INFO: === Pipeline run completed successfully ===
+2025-09-23 18:05:49,163 INFO: === Pipeline run started ===
+2025-09-23 18:06:01,117 INFO: daily_new.csv generated successfully.
+2025-09-23 18:07:10,803 INFO: Daily data fetched successfully.
+2025-09-23 18:09:34,598 INFO: Evaluation results: {'min_price': {'MAE': 2082.8639290971173, 'RMSE': 4657.981397163222}, 'max_price': {'MAE': 2437.29745268914, 'RMSE': 5955.900283657572}, 'modal_price': {'MAE': 2301.7059469152746, 'RMSE': 5407.244177341937}}
+2025-09-23 18:09:34,600 INFO: === Pipeline run completed successfully ===
