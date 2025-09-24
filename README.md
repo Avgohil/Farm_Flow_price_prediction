@@ -174,25 +174,7 @@ Current model performance metrics are logged in `evaluation_results.csv` with co
 
 ## 🤝 Contributing
 
-This project is maintained by the FarmFlow team. For contributions:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is for internal use. Please contact the FarmFlow team for licensing details.
-
-## 👥 Team
-
-**FarmFlow Development Team**
-- Data Science & ML Engineering
-- Backend Development
-- DevOps & Automation
-
----
+This project is maintained by the FarmFlow team. part of our final year major project and i lead the ML part
 
 <div align="center">
 Made with ❤️ by the FarmFlow Team
