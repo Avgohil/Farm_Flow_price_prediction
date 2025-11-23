@@ -133,47 +133,8 @@ For Windows users, run the daily automation:
 run_farmflow_daily.bat
 ```
 
-## 🏗️ Architecture & Workflow
 
-Below is a high-level architecture diagram and the daily processing workflow. The diagrams use Mermaid syntax — GitHub renders these automatically. If your viewer does not support Mermaid, a plain-text summary follows.
-
-```mermaid
-flowchart TD
-    A[Agmarknet API] -->|daily data| B(Fetcher: fetch_agmarknet_daily.py)
-    B --> C[Raw daily CSVs]
-    C --> D[Combine & Filter: combine_filter_daily.py]
-    D --> E[daily_new.csv]
-    E --> F[Update Master: update_master.py]
-    F --> G[Master dataset (master_data_2019_2025.csv)]
-    G --> H[Training / Retrain: update_and_retrain.py]
-    H --> I[Model artifacts: model_deployment_artifacts/]
-    I --> J[FastAPI: mandi_fastapi.py]
-    J -->|predictions| K[Clients / UI / API Users]
-
-    style A fill:#f9f,stroke:#333,stroke-width:1px
-    style H fill:#ffefc6,stroke:#333,stroke-width:1px
-    style I fill:#e6f7ff,stroke:#333,stroke-width:1px
-    style J fill:#e6ffe6,stroke:#333,stroke-width:1px
-```
-
-```mermaid
-sequenceDiagram
-    participant Fetcher
-    participant Combiner
-    participant Updater
-    participant Trainer
-    participant API
-
-    Fetcher->>Combiner: Write daily_YYYY-MM-DD.csv
-    Combiner->>Updater: Create daily_new.csv
-    Updater->>Updater: Append new rows to master
-    Updater->>Trainer: Provide new rows (for incremental retrain)
-    Trainer->>Trainer: Full or incremental retrain
-    Trainer->>API: Update model artifacts
-    API->>Clients: Serve predictions
-```
-
-Plain-text workflow summary:
+  workflow summary:
 - The fetcher reads last date from `master_data_2019_2025.csv` and fetches missing days from Agmarknet into `daily_YYYY-MM-DD.csv` files.
 - `combine_filter_daily.py` merges daily CSVs into `daily_new.csv` and applies basic filtering.
 - `update_master.py` appends genuinely new rows to the master dataset and returns new rows for retraining.
