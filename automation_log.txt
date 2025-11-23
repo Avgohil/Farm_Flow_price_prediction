@@ -169,3 +169,30 @@ Feature names seen at fit time, yet now missing:
 2025-09-23 18:07:10,803 INFO: Daily data fetched successfully.
 2025-09-23 18:09:34,598 INFO: Evaluation results: {'min_price': {'MAE': 2082.8639290971173, 'RMSE': 4657.981397163222}, 'max_price': {'MAE': 2437.29745268914, 'RMSE': 5955.900283657572}, 'modal_price': {'MAE': 2301.7059469152746, 'RMSE': 5407.244177341937}}
 2025-09-23 18:09:34,600 INFO: === Pipeline run completed successfully ===
+2025-11-23 11:51:28,443 INFO: === Pipeline run started ===
+2025-11-23 11:51:35,689 INFO: daily_new.csv generated successfully.
+2025-11-23 11:51:37,448 INFO: Daily data fetched successfully.
+2025-11-23 11:53:07,612 INFO: Evaluation results: {'min_price': {'MAE': 2082.8639290971173, 'RMSE': 4657.981397163222}, 'max_price': {'MAE': 2437.29745268914, 'RMSE': 5955.900283657572}, 'modal_price': {'MAE': 2301.7059469152746, 'RMSE': 5407.244177341937}}
+2025-11-23 11:53:07,626 INFO: === Pipeline run completed successfully ===
+2025-11-23 13:09:20,659 INFO: Starting full retrain: master=master_data_2019_2025.csv, model_out=lgbm_multioutput_regressor_model.pkl
+2025-11-23 13:09:20,659 INFO: Starting full retrain on all data...
+2025-11-23 13:10:15,466 INFO: Full retrain complete and model saved.
+2025-11-23 13:10:15,669 INFO: Full retrain finished successfully.
+2025-11-23 14:16:54,334 INFO: Starting full retrain: master=master_data_2019_2025.csv, model_out=lgbm_multioutput_regressor_model.pkl
+2025-11-23 14:16:54,334 INFO: Starting full retrain on all data...
+2025-11-23 14:16:54,334 INFO: Loading master file: master_data_2019_2025.csv
+2025-11-23 14:17:21,779 INFO: Preprocessing complete. Feature matrix shape: (4251057, 8)
+2025-11-23 14:17:22,642 INFO: Feature scaler fitted and saved: feature_scaler.pkl
+2025-11-23 14:17:23,933 INFO: Starting model.fit on 4251057 samples and 3 targets
+2025-11-23 14:17:48,879 INFO: Model.fit complete.
+2025-11-23 14:17:48,901 INFO: Full retrain complete and model saved: lgbm_multioutput_regressor_model.pkl
+2025-11-23 14:17:49,103 INFO: Full retrain finished successfully.
+2025-11-23 14:21:44,515 INFO: Starting full retrain: master=master_data_2019_2025.csv, model_out=lgbm_multioutput_regressor_model.pkl
+2025-11-23 14:21:44,515 INFO: Starting full retrain on all data...
+2025-11-23 14:21:44,515 INFO: Loading master file: master_data_2019_2025.csv
+2025-11-23 14:22:08,973 INFO: Preprocessing complete. Feature matrix shape: (4251057, 8)
+2025-11-23 14:22:09,855 INFO: Feature scaler fitted and saved: feature_scaler.pkl
+2025-11-23 14:22:10,951 INFO: Starting model.fit on 4251057 samples and 3 targets
+2025-11-23 14:22:32,688 INFO: Model.fit complete.
+2025-11-23 14:22:32,703 INFO: Full retrain complete and model saved: lgbm_multioutput_regressor_model.pkl
+2025-11-23 14:22:32,888 INFO: Full retrain finished successfully.

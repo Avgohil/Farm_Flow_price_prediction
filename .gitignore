@@ -1,2 +1,31 @@
+# Ignore daily data files and large artifacts
+daily_*.csv
+prediction_results.csv
+evaluation_results.csv
+master_data_*.csv
+
+# Model artifacts (do not track binary model/encoder files)
+model_deployment_artifacts/
+
+# Backups and editor/temp files
+*.bak
+*.bak2
+*.tmp
+*.swp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# OS files
+Thumbs.db
+.DS_Store
 master_data_2019_2025.csv
 prediction_results.csv

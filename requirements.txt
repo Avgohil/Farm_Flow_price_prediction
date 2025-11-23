@@ -1,0 +1,12 @@
+# Auto-generated requirements based on project imports (scan 2025-11-23)
+pandas
+numpy
+scikit-learn
+lightgbm
+joblib
+fastapi
+pydantic
+requests
+uvicorn[standard]
+# Optional: add Jupyter for notebook work
+jupyter

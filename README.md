@@ -54,7 +54,7 @@ FarmFlow Price Prediction is a comprehensive machine learning system designed to
 ```
 farmflow-price-prediction/
 ├── 📊 Data Processing
-│   ├── fetch_agmarknet_daily.py      # Daily data fetching from Agmarknet
+│   ├── fetch_agmarknet_daily.py      # Daily data fetching from Agmarknet (robust parser)
 │   ├── combine_filter_daily.py       # Data combination and filtering
 │   ├── update_master.py              # Master dataset updates
 │   └── check_commodities.py          # Commodity data validation
@@ -82,7 +82,7 @@ farmflow-price-prediction/
 ### Data Pipeline
 
 ```bash
-# Fetch daily market data
+# Fetch daily market data (robust fetcher)
 python fetch_agmarknet_daily.py
 
 # Process and combine data
@@ -108,8 +108,8 @@ python update_and_retrain.py
 ### API Server
 
 ```bash
-# Start the FastAPI server
-python mandi_fastapi.py
+# Start the FastAPI server (recommended: use uvicorn)
+uvicorn mandi_fastapi:app --host 0.0.0.0 --port 8000
 ```
 
 Access the API documentation at `http://localhost:8000/docs`
@@ -120,6 +120,62 @@ For Windows users, run the daily automation:
 ```cmd
 run_farmflow_daily.bat
 ```
+
+## 🏗️ Architecture & Workflow
+
+Below is a high-level architecture diagram and the daily processing workflow. The diagrams use Mermaid syntax — GitHub renders these automatically. If your viewer does not support Mermaid, a plain-text summary follows.
+
+```mermaid
+flowchart TD
+    A[Agmarknet API] -->|daily data| B(Fetcher: fetch_agmarknet_daily.py)
+    B --> C[Raw daily CSVs]
+    C --> D[Combine & Filter: combine_filter_daily.py]
+    D --> E[daily_new.csv]
+    E --> F[Update Master: update_master.py]
+    F --> G[Master dataset (master_data_2019_2025.csv)]
+    G --> H[Training / Retrain: update_and_retrain.py]
+    H --> I[Model artifacts: model_deployment_artifacts/]
+    I --> J[FastAPI: mandi_fastapi.py]
+    J -->|predictions| K[Clients / UI / API Users]
+
+    style A fill:#f9f,stroke:#333,stroke-width:1px
+    style H fill:#ffefc6,stroke:#333,stroke-width:1px
+    style I fill:#e6f7ff,stroke:#333,stroke-width:1px
+    style J fill:#e6ffe6,stroke:#333,stroke-width:1px
+```
+
+```mermaid
+sequenceDiagram
+    participant Fetcher
+    participant Combiner
+    participant Updater
+    participant Trainer
+    participant API
+
+    Fetcher->>Combiner: Write daily_YYYY-MM-DD.csv
+    Combiner->>Updater: Create daily_new.csv
+    Updater->>Updater: Append new rows to master
+    Updater->>Trainer: Provide new rows (for incremental retrain)
+    Trainer->>Trainer: Full or incremental retrain
+    Trainer->>API: Update model artifacts
+    API->>Clients: Serve predictions
+```
+
+Plain-text workflow summary:
+- The fetcher reads last date from `master_data_2019_2025.csv` and fetches missing days from Agmarknet into `daily_YYYY-MM-DD.csv` files.
+- `combine_filter_daily.py` merges daily CSVs into `daily_new.csv` and applies basic filtering.
+- `update_master.py` appends genuinely new rows to the master dataset and returns new rows for retraining.
+- `update_and_retrain.py` performs either incremental retrain (on new rows) or a full retrain; artifacts are written to `model_deployment_artifacts/`.
+- `mandi_fastapi.py` loads artifacts and serves predictions via `/predict`.
+
+
+
+## ✅ Additional Notes
+
+- A robust fetcher implementation is installed as `fetch_agmarknet_daily.py`. It reads the last date from `master_data_2019_2025.csv` and fetches missing days through yesterday.
+- A smoke-test script `smoke_predict.py` is included to quickly verify model artifacts load and make a prediction.
+- A pinned environment file was saved as `requirements_pinned.txt` to help with reproducible installs. For a minimal runtime set, consider trimming to required packages only.
+- Pipeline logs are written to `automation_log.txt` — check this file for retrain/evaluation history and errors.
 
 ## 🎯 API Endpoints
 
@@ -174,7 +230,8 @@ Current model performance metrics are logged in `evaluation_results.csv` with co
 
 ## 🤝 Contributing
 
-This project is maintained by the FarmFlow team. part of our final year major project and i lead the ML part
+This project is part of our final-year major project, and I lead the complete Machine Learning pipeline.
+
 
 <div align="center">
 Made with ❤️ by the FarmFlow Team

@@ -1,8 +1,12 @@
+import logging
+
+
 def full_retrain(master_file, model_file):
     """
     Retrain the model from scratch using the entire master dataset and the new feature engineering pipeline.
     """
-    print("Starting full retrain on all data...")
+    logging.info("Starting full retrain on all data...")
+    logging.info("Loading master file: %s", master_file)
     df_master = pd.read_csv(master_file, dtype=str)
     # Use the same feature engineering as preprocess_new_data
     group_cols = ['state_name', 'district_name', 'market_name', 'commodity_name', 'variety']
@@ -38,15 +42,23 @@ def full_retrain(master_file, model_file):
     # Drop rows with missing target values
     df_master = df_master.dropna(subset=TARGETS)
     X = df_master[feature_cols].copy()
+    logging.info("Preprocessing complete. Feature matrix shape: %s", X.shape)
     scaler = StandardScaler().fit(X)
     save_encoder(scaler, os.path.join(ARTIFACTS_DIR, SCALER_FILE))
+    logging.info("Feature scaler fitted and saved: %s", SCALER_FILE)
     X_scaled = scaler.transform(X)
     y = df_master[TARGETS].astype(float)
     # Train model
     model = MultiOutputRegressor(LGBMRegressor())
-    model.fit(X_scaled, y)
-    joblib.dump(model, os.path.join(ARTIFACTS_DIR, model_file))
-    print("Full retrain complete and model saved.")
+    try:
+        logging.info("Starting model.fit on %d samples and %d targets", X_scaled.shape[0], y.shape[1] if len(y.shape) > 1 else 1)
+        model.fit(X_scaled, y)
+        logging.info("Model.fit complete.")
+        joblib.dump(model, os.path.join(ARTIFACTS_DIR, model_file))
+        logging.info("Full retrain complete and model saved: %s", model_file)
+    except Exception as e:
+        logging.exception("Full retrain failed during model.fit: %s", e)
+        raise
 import subprocess
 import logging
 from datetime import datetime
