@@ -77,6 +77,18 @@ farmflow-price-prediction/
     └── run_farmflow_daily.bat         # Daily automation script
 ```
 
+## 🖼️ Screenshots
+
+
+
+What to include :
+- **Pipeline logs / run output:** screenshots of `run_farmflow_daily` or trimmed views of `automation_log.txt` showing successful steps and timestamps. Remove sensitive data and avoid capturing very long logs — crop or trim them.
+- **FastAPI UI & prediction output:** screenshots of the `/docs` interface, example request/response payloads, and the server output for a sample prediction.
+- **Serve/demo screens:** terminal or browser screenshots showing the server running, health checks, and example client usage.
+
+
+
+
 ## 🔧 Usage
 
 ### Data Pipeline
